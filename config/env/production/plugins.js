@@ -7,6 +7,7 @@ module.exports = ({env})=> ({
         playgroundAlways: false,
         depthLimit: 15,
         amountLimit: 100,
+        maxLimit:60,
         apolloServer: {
           tracing: false,
         },
